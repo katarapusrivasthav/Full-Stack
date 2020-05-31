@@ -1,0 +1,18 @@
+ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: white;
+    border: solid 4px black;
+    margin: 40px 600px 0px 400px;
+    
+}
+ul a{
+    display: table;
+    color: silver;
+    margin: 30px;
+    padding: 5px 0px 5px -5px;
+    text-decoration-color: none;
+    font-size: 20px;
+    
+
+}
