@@ -1,0 +1,40 @@
+ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: lightblue;
+
+}
+ ul a{
+    display: inline-block;
+    color:black;
+    margin: 10px;
+    text-decoration-color: none;
+    font-size: 20px;
+    background-color: lightblue;
+    
+}
+div{
+    color: #000;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    
+}
+.container{
+    display:flex;
+    border-top: solid 4px black;
+    border-left: solid 4px black;
+    border-right: solid 4px black;
+    background-color: #cec1c1;
+}
+.second{
+    background-color: lightblue;
+    border: solid 4px black;
+}
+.fixed{
+    flex: 40%;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 4%;
+}
+.flex-item{
+    flex-grow: 1;
+}
