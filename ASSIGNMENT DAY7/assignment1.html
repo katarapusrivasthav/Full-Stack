@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ASSIGNMENT 1</title>
+    <script>
+        function myfunc() {
+            var v1, v2;
+            v1 = document.getElementById("a1").value;
+            if (/^[A-Z][a-z]{3,9}$/.test(v1)) {
+                window.alert("PERFECT")
+            }
+            else {
+                window.alert("NOT PERFECT")
+
+            }
+            v2=document.getElementById("a4").value;
+            if(/^[A-Z][./!@#$%^&*()a-z0-9]*$/.test(v2)){
+                window.alert("PERFECT")
+            }
+            else {
+                window.alert("NOT PERFECT")
+
+            }
+            
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <div>
+            USERNAME: <input type="text" id="a1" placeholder="USER NAME">
+        </div>
+        <div>
+            FULLNAME: <input type="text" id="a2" placeholder="FULL NAME">
+        </div>
+        <div>
+            DEPARTMENT: <input type="text" id="a3" placeholder="DEPT NAME">
+        </div>
+        <div>
+
+            ADDRESS: <textarea rows="10" cols="20"></textarea>
+        </div>
+        <div>
+            PASSWORD: <input type="password" id="a4" placeholder="PASSWORD">
+        </div>
+        <button type="button" onclick="myfunc()">SUBMIT</button>
+    </form>
+
+</body>
+
+</html>
